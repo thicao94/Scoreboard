@@ -1,0 +1,56 @@
+
+body, h3 {
+    margin: 0;
+}
+
+body {
+    background: #1B244A;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    font-size:40px;
+}
+
+
+button {
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    background: none;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+#reset-btn{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+
+.teams {
+    border: 1px solid red;
+    padding: 20px;
+}
+
+#home-score-el, #guest-score-el{
+    font-family: 'Orbitron', sans-serif;
+    background: #080001;
+    color: #F94F6D;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 60px;
+}

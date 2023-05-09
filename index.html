@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="teams">
+                <h3>HOME</h3>
+                <h3 id="home-score-el">0</h3>
+                <div>
+                    <button onclick="addToHome(1)">+1</button>
+                    <button onclick="addToHome(2)">+2</button>
+                    <button onclick="addToHome(3)">+3</button>
+                </div>
+            </div>
+            <div class="teams">
+                <h3>GUEST</h3>
+                <h3 id="guest-score-el">0</h3>
+                <div>
+                    <button onclick="addToGuest(1)">+1</button>
+                    <button onclick="addToGuest(2)">+2</button>
+                    <button onclick="addToGuest(3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="reset-btn" onclick="reset()">Reset</button>
+        <script src="index.js"></script>
+    </body>
+</html>
